@@ -1,4 +1,11 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --background-color: rgba(0, 0, 40, 1);
+  --background-image: url('../images/cover-image-dark.png');
+  --h2-nav-color: rgba(255, 0, 112, 1);
+  --bg-h3-h4-text-color: rgba(255, 0, 112, 1);
+  --h3-h4-text-color: rgba(0, 0, 40, 1);
+  --card-text-color: rgba(241, 178, 206, 1);
+  --text-shadow: rgba(255, 0, 112, 1);
+  --decorate-color: rgba(255, 0, 112, 1);
+  --h1-footer-color: rgba(219, 0, 255, 1);
+}
