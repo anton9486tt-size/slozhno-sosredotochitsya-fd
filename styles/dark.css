@@ -10,28 +10,8 @@
   --h1-footer-color: rgba(219, 0, 255, 1);
 }
 
-.theme-dark {
-  background-image: var(--background-image);
-  background-color: var(--background-color);
-  border: var(--decorate-color);
-  color: var(--decorate-color);
-  text-shadow: var(--text-shadow);
-  background-color: var(--text-shadow);
-  box-shadow: var(--text-shadow);
-  color: var(--h3-nav-color);
-  color: var(--background-color);
-  color: var(--h2-nav-color);
-  color: var(--h3-h4-text-color);
-  color: var(--card-text-color);
-  text-shadow: var(--text-shadow);
-  outline: (--card-text-color);
-  box-shadow: var(--decorate-color);
-}
-
-
 @media (prefers-color-scheme: dark) {
-
-  .theme-dark {
+  :root {
     --background-color: rgba(0, 0, 40, 1);
     --background-image: url('../images/cover-image-dark.png');
     --h2-nav-color: rgba(255, 0, 112, 1);
@@ -41,23 +21,5 @@
     --text-shadow: rgba(255, 0, 112, 1);
     --decorate-color: rgba(255, 0, 112, 1);
     --h1-footer-color: rgba(219, 0, 255, 1);
-  }
-
-  .theme-dark {
-    background-image: var(--background-image);
-    background-color: var(--background-color);
-    border: var(--decorate-color);
-    color: var(--decorate-color);
-    text-shadow: var(--text-shadow);
-    background-color: var(--text-shadow);
-    box-shadow: var(--text-shadow);
-    color: var(--h3-nav-color);
-    color: var(--background-color);
-    color: var(--h2-nav-color);
-    color: var(--h3-h4-text-color);
-    color: var(--card-text-color);
-    text-shadow: var(--text-shadow);
-    outline: (--card-text-color);
-    box-shadow: var(--decorate-color);
   }
 }
