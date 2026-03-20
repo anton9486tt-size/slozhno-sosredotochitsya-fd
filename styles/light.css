@@ -27,4 +27,8 @@
     --decorate-color: rgba(53, 52, 48, 1);
     --h1-footer-color: rgba(255, 194, 230, 1);
   }
-}
+
+  .header_decoratived_text {
+    display: none;
+  }
+}  

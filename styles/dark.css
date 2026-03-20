@@ -10,6 +10,10 @@
   --h1-footer-color: rgba(219, 0, 255, 1);
 }
 
+.theme-dark .header_decoratived_text {
+  display: block;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: rgba(0, 0, 40, 1);
